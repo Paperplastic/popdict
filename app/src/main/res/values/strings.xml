@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PopDict</string>
+
+    <string name="set_note_positive">Save</string>
+    <string name="set_note_negative">Delete</string>
+    <string name="set_note_neutral">Cancel</string>
+
+    <string name="delete_note_title">Delete Note?</string>
+    <string name="delete_note_positive">Yes</string>
+    <string name="delete_note_negative">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="switch_prefence_summary">Required for Popup Dictionary</string>
+
+    <string name="about_title">About</string>
+    <string name="cite_wordnet">WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved. THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT- ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.</string>
+
+
+</resources>

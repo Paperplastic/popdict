@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/card_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <RelativeLayout
+            android:id="@+id/card_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="14dp"
+            android:clipChildren="false">
+
+            <ImageView
+                android:id="@+id/icon_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/ic_favourite"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless" />
+
+            <ImageView
+                android:id="@+id/icon_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_note"
+                android:layout_margin="4dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/icon_favourite"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"/>
+
+            <ImageView
+                android:id="@+id/icon_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_audio"
+                android:layout_margin="4dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/icon_note"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"/>
+
+            <TextView
+                android:id="@+id/word_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardtest"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/icon_audio"
+                android:textSize="24sp"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_top">
+
+            <LinearLayout
+                android:id="@+id/definition_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</layout>
+

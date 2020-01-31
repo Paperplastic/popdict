@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/downloadsFragment">
+
+    <fragment
+        android:id="@+id/definitionFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.DefinitionFragment"
+        android:label="Definition"
+        tools:layout="@layout/fragment_card" />
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.DownloadsFragment"
+        android:label="Dictionaries"
+        tools:layout="@layout/fragment_downloads" >
+        <action
+            android:id="@+id/action_downloadsFragment_to_spinnerFragment"
+            app:destination="@id/spinnerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wordFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.WordFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_word" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_word" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.SettingsFragment"
+        android:label="Settings" />
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.SpinnerFragment"
+        android:label="SpinnerFragment" >
+        <action
+            android:id="@+id/action_spinnerFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.DictionaryFragment"
+        android:label="fragment_dictionary"
+        tools:layout="@layout/fragment_dictionary" >
+        <action
+            android:id="@+id/action_dictionaryFragment_to_definitionFragment"
+            app:destination="@id/definitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.ampify.dictionarypopup.Fragments.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

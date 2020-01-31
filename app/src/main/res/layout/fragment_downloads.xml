@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.ampify.android.dictionarypopup.Fragments.DownloadsFragment">
+
+        <Button
+            android:id="@+id/wordnet_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="download wordnet"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/download_text" />
+
+        <TextView
+            android:id="@+id/download_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Downloading Wordnet..."
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"/>
+
+        <ProgressBar
+            android:id="@+id/download_progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:visibility="invisible"
+            android:layout_below="@id/download_text"/>
+
+    </RelativeLayout>
+
+</layout>

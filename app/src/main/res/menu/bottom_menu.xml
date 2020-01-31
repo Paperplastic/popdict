@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/to_dictionary_fragment"
+        android:icon="@drawable/ic_dictionary"
+        android:title="Dictionary" />
+
+    <item
+        android:id="@+id/to_word_fragment"
+        android:icon="@drawable/ic_favourite"
+        android:title="Favorites" />
+
+    <item
+        android:id="@+id/to_history_fragment"
+        android:icon="@drawable/ic_history"
+        android:title="History" />
+
+</menu>

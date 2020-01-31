@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008376</color>
+    <color name="colorPrimaryDark">#008376</color>
+    <color name="colorAccent">#00BFA5</color>
+    <color name="colorPrimaryNight">#212121</color>
+    <color name="colorPrimaryNightDark">#000000</color>
+    <color name="colorTextDay">#000000</color>
+    <color name="colorTextNight">#ffffff</color>
+    <color name="colorIconUnselected">#A9A9A9</color>
+    <color name="colorToolbarIconUnselected">#ffffff</color>
+</resources>

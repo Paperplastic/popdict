@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Day Theme -->
+    <style name="AppThemeDay" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttoncolor">@color/colorAccent</item>
+        <item name="buttontint">@color/colorAccent</item>
+        <item name="back">@color/colorTextNight</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <!-- Night Theme-->
+    <style name="AppThemeNight" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryNightDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttoncolor">@color/colorAccent</item>
+        <item name="buttontint">@color/colorAccent</item>
+        <item name="nighttint">@color/colorAccent</item>
+        <item name="back">@color/colorPrimaryNight</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="DialogDefault" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+    <style name="DialogDay" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+    <style name="DialogNight" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+</resources>

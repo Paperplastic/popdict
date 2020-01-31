@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="notification" >
+        <item>No Notification</item>
+        <item>Popup Notification</item>
+        <item>Silent Notification</item>
+    </string-array>
+
+    <string-array name="notificationValues" >
+        <item>null</item>
+        <item>popup</item>
+        <item>silent</item>
+    </string-array>
+
+</resources>

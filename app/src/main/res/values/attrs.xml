@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="attribute" >
+        <attr name="back" format="color"/>
+        <attr name="buttoncolor" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="buttontint" format="color"/>
+        <attr name="nighttint" format="color"/>
+    </declare-styleable>
+
+
+</resources>

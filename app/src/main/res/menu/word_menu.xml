@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/word_order"
+        android:title="order"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/aph_asc"
+                    android:title="A-Z"/>
+
+                <item
+                    android:id="@+id/aph_desc"
+                    android:title="Z-A"/>
+
+                <item
+                    android:id="@+id/date_desc"
+                    android:title="Date: New - Old" />
+
+                <item
+                    android:id="@+id/date_asc"
+                    android:title="Date: Old - New"/>
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
